@@ -1,0 +1,37 @@
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+/* ROOT */
+:root {
+    --background_header: rgb(44, 62, 80);
+    --background_green: rgb(26, 188, 156);
+    --background_contacts: rgb(58, 84, 109);
+}
+
+/* UTILITIES */
+
+/* HEADER */
+header {
+    color: white;
+    background-color: var(--background_header);
+}
+
+/* HERO */
+.hero {
+    color: white;
+    background-color: var(--background_green);
+}
+
+.avatar {
+    max-width: 150px;
+}
+
+/* PORTFOLIO */
+.portfolio img {
+    border-radius: 1rem;
+}
