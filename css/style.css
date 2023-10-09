@@ -4,14 +4,14 @@ img {
 
 /* ROOT */
 :root {
-    --background_header: rgb(44, 62, 80);
+    --background_footer: rgb(44, 62, 80);
     --background_green: rgb(26, 188, 156);
-    --background_copy: rgb(58, 84, 109);
-    --padding: 1.5rem;
+    --background_header: rgb(58, 84, 109);
+    --padding: 2rem;
 }
 
 /* COMMON */
-header, .hero, .portfolio, .about, .contact, .location {
+header, .hero, .portfolio, footer, .about, .contact, .location {
     padding: var(--padding) 0;
 }
 
@@ -59,6 +59,20 @@ header {
 }
 
 .location a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: var(--background_green);
+}
+
+.location span {
+    display: inline-block;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+/* FOOTER */
+footer {
+    color: white;
+    background-color: var(--background_footer);
 }
