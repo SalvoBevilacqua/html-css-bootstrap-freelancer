@@ -2,18 +2,18 @@ img {
     max-width: 100%;
 }
 
-body {
-    background-color: aquamarine;
-}
-
 /* ROOT */
 :root {
     --background_header: rgb(44, 62, 80);
     --background_green: rgb(26, 188, 156);
-    --background_contacts: rgb(58, 84, 109);
+    --background_copy: rgb(58, 84, 109);
+    --padding: 1rem;
 }
 
-/* UTILITIES */
+/* COMMON */
+header, .hero, .portfolio, .about {
+    padding: var(--padding) 0;
+}
 
 /* HEADER */
 header {
@@ -32,6 +32,18 @@ header {
 }
 
 /* PORTFOLIO */
+
 .portfolio img {
     border-radius: 1rem;
+}
+
+/* ABOUT */
+.about {
+    color: white;
+    background-color: var(--background_green);
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
 }
