@@ -1,3 +1,4 @@
+/* RESET */
 img {
     max-width: 100%;
 }
@@ -13,6 +14,11 @@ img {
 /* COMMON */
 header, .hero, .portfolio, footer, .about, .contact, .location {
     padding: var(--padding) 0;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
 }
 
 /* HEADER */
@@ -32,7 +38,6 @@ header {
 }
 
 /* PORTFOLIO */
-
 .portfolio img {
     border-radius: 1rem;
 }
@@ -43,23 +48,13 @@ header {
     background-color: var(--background_green);
 }
 
-.wrapper {
-    width: 70%;
-    margin: 0 auto;
-}
-
 /* LOCATION */
 .location {
     color: white;
     background-color: var(--background_header);
 }
 
-.location p {
-    margin-bottom: .3rem;
-}
-
 .location a {
-    /* text-decoration: none; */
     color: var(--background_green);
 }
 
