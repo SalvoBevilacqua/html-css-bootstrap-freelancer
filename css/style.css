@@ -81,6 +81,11 @@ header {
     padding: 1rem .1rem;
 }
 
+.ms_button {
+    color: white;
+    background-color: var(--background_green);
+}
+
 /* LOCATION */
 .location {
     background-color: var(--background_header);
