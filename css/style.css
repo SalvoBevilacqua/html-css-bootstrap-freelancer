@@ -21,6 +21,18 @@ header, .hero, .about, .location, footer {
     margin: 0 auto;
 }
 
+.ms_border_white {
+    opacity: 100;
+    border: 2px solid rgb(255, 255, 255);
+    width: 40%;
+}
+
+.ms_border_black {
+    opacity: 100;
+    border: 2px solid black;
+    width: 40%;
+}
+
 /* HEADER */
 header {
     background-color: var(--background_header);
@@ -48,11 +60,6 @@ header {
     max-width: 150px;
 }
 
-/* PORTFOLIO */
-.portfolio img {
-    border-radius: 1rem;
-}
-
 /* ABOUT */
 .about {
     background-color: var(--background_green);
@@ -72,7 +79,6 @@ header {
     line-height: 35px;
     height: 35px;
     width: 35px;
-    border-radius: 50%;
 }
 
 /* FOOTER */
