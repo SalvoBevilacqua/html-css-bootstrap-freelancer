@@ -21,34 +21,14 @@ header, .hero, .about, .location, footer {
     margin: 0 auto;
 }
 
-.ms_border_white {
-    opacity: 100;
-    border: 2px solid rgb(255, 255, 255);
+.ms_border {
     width: 40%;
-}
-
-.ms_border_black {
-    opacity: 100;
-    border: 2px solid black;
-    width: 40%;
+    border: 2px solid;
 }
 
 /* HEADER */
 header {
     background-color: var(--background_header);
-}
-
-.hide_sm {
-    display: none;
-}
-
-@media screen and (min-width: 768px) {
-    .hide_sm {
-        display: inline-block;
-    }
-    .hide_md {
-        display: none;
-    }
 }
 
 /* HERO */
@@ -66,13 +46,6 @@ header {
 }
 
 /* CONTACT */
-.ms_form input, .ms_form textarea {
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-radius: 0;
-}
-
 .form-floating > .ms_form_control {
     padding-bottom: 8rem;
 }
@@ -82,7 +55,6 @@ header {
 }
 
 .ms_button {
-    color: white;
     background-color: var(--background_green);
 }
 
@@ -96,10 +68,9 @@ header {
 }
 
 .location span {
-    display: inline-block;
-    line-height: 35px;
-    height: 35px;
-    width: 35px;
+    line-height: 34px;
+    width: 34px;
+    height: 34px;
 }
 
 /* FOOTER */

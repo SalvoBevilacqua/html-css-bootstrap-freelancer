@@ -19,12 +19,12 @@
         <div class="row g-0 align-items-center">
           <div class="col-6 text-start text-uppercase fw-bold">start bootstrap</div>
           <div class="col-6 text-end">
-            <button type="button" class="hide_md btn btn-outline-light">
+            <button type="button" class="d-md-none btn btn-outline-light">
               <i class="fa-solid fa-bars" style="color: #787878;"></i>              
             </button>
-            <span class="hide_sm text-uppercase fw-bold">portfolio</span>
-            <span class="hide_sm text-uppercase ms-4 fw-bold">about</span>
-            <span class="hide_sm text-uppercase ms-4 fw-bold">contact</span>
+            <span class="d-none d-md-inline-block text-uppercase fw-bold">portfolio</span>
+            <span class="d-none d-md-inline-block text-uppercase ms-4 fw-bold">about</span>
+            <span class="d-none d-md-inline-block text-uppercase ms-4 fw-bold">contact</span>
           </div>
         </div>
       </div>
@@ -40,9 +40,9 @@
           </div>
 
           <div class="col-6 col-md-3 col-lg-3 d-flex justify-content-between my-3">
-            <hr class="rounded-pill ms_border_white">
+            <hr class="rounded-pill opacity-100 ms_border border-white">
             <i class="fa-solid fa-star fs-2" style="color: #ffffff;"></i>
-            <hr class="rounded-pill ms_border_white">
+            <hr class="rounded-pill opacity-100 ms_border border-white">
           </div>
 
           <div class="col-12">
@@ -61,9 +61,9 @@
           <h2 class="text-uppercase fw-semibold">portfolio</h2>
 
           <div class="col-6 col-md-3 col-lg-3 d-flex justify-content-between my-3">
-            <hr class="rounded-pill ms_border_black">
+            <hr class="rounded-pill opacity-100 ms_border border-dark">
             <i class="fa-solid fa-star fs-2" style="color: #000000;"></i>
-            <hr class="rounded-pill ms_border_black">
+            <hr class="rounded-pill opacity-100 ms_border border-dark">
           </div>
         </div>
 
@@ -88,9 +88,9 @@
               <h2 class="text-uppercase fw-semibold">about</h2>
 
               <div class="col-6 col-md-3 col-lg-3 d-flex justify-content-between my-3">
-                <hr class="rounded-pill ms_border_white">
+                <hr class="rounded-pill opacity-100 ms_border border-white">
                 <i class="fa-solid fa-star fs-2" style="color: #ffffff;"></i>
-                <hr class="rounded-pill ms_border_white">
+                <hr class="rounded-pill opacity-100 ms_border border-white">
               </div>
             </div>
             
@@ -116,34 +116,34 @@
         <div class="d-flex flex-column align-items-center">
           <h2 class="text-uppercase fw-semibold">contact me</h2>
           <div class="col-6 col-md-3 col-lg-3 d-flex justify-content-between my-3">
-            <hr class="rounded-pill ms_border_black">
+            <hr class="rounded-pill opacity-100 ms_border border-dark">
             <i class="fa-solid fa-star fs-2" style="color: #000000;"></i>
-            <hr class="rounded-pill ms_border_black">
+            <hr class="rounded-pill opacity-100 ms_border border-dark">
           </div>
         </div>
 
         <div class="ms_form">
           <div class="form-floating">
-            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input type="text" class="form-control rounded-0 border-top-0 border-end-0 border-start-0" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Name</label>
           </div>
 
           <form class="form-floating">
-            <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com">
+            <input type="email" class="form-control rounded-0 border-top-0 border-end-0 border-start-0" id="floatingInputValue" placeholder="name@example.com">
             <label for="floatingInputValue">Email Address</label>
           </form>
 
           <form class="form-floating">
-            <input type="number" class="form-control" id="floatingInputValue" placeholder="name@example.com">
+            <input type="number" class="form-control rounded-0 border-top-0 border-end-0 border-start-0" id="floatingInputValue" placeholder="name@example.com">
             <label for="floatingInputValue">Phone Number</label>
           </form>
 
           <div class="form-floating">
-            <textarea class="form-control ms_form_control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <textarea class="form-control ms_form_control rounded-0 border-top-0 border-end-0 border-start-0" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
             <label for="floatingTextarea">Message</label>
           </div>
 
-          <button type="button" class="btn mt-3 ms_button">Send</button>
+          <button type="button" class="btn mt-3 ms_button text-white">Send</button>
 
         </div>
       </div>
@@ -155,20 +155,20 @@
         <div class="row gy-4">
           <div class="col-12 col-md-4 text-center">
             <p class="mb-2 text-uppercase fw-semibold">location</p>
-            <P>2215 John Daniel Drive Clark, MO 54243</P>
+            <P class="my-0">2215 John Daniel Drive Clark, MO 54243</P>
           </div>
 
           <div class="col-12 col-md-4 text-center">
             <p class="mb-2 text-uppercase fw-semibold">around the web</p>
-            <span class="border border-light rounded-circle align-middle"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></span>
-            <span class="border border-light rounded-circle align-middle"><i class="fa-brands fa-google-plus-g" style="color: #ffffff;"></i></span>
-            <span class="border border-light rounded-circle align-middle"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></span>
-            <span class="border border-light rounded-circle align-middle"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></span>          
+            <span class="d-inline-block border border-light rounded-circle"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></span>
+            <span class="d-inline-block border border-light rounded-circle"><i class="fa-brands fa-google-plus-g" style="color: #ffffff;"></i></span>
+            <span class="d-inline-block border border-light rounded-circle"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></span>
+            <span class="d-inline-block border border-light rounded-circle"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></span>          
           </div>
           
           <div class="col-12 col-md-4 text-center">
             <p class="mb-2 text-uppercase fw-semibold">about freelancer</p>
-            <p>Freelance is a free to use, open source Bootstrap theme created by <a class="text-decoration-none" href="">Start Bootstrap</a>.</p>
+            <p class="my-0">Freelance is a free to use, open source Bootstrap theme created by <a class="text-decoration-none" href="">Start Bootstrap</a>.</p>
           </div>
         </div>
       </div>
