@@ -12,8 +12,8 @@ img {
 }
 
 /* COMMON */
-header, .hero, .portfolio, footer, .about, .contact, .location {
-    padding: var(--padding) 0;
+header, .hero, .about, .location, footer {
+    color: white;
 }
 
 .wrapper {
@@ -23,13 +23,24 @@ header, .hero, .portfolio, footer, .about, .contact, .location {
 
 /* HEADER */
 header {
-    color: white;
     background-color: var(--background_header);
+}
+
+.hide_sm {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .hide_sm {
+        display: inline-block;
+    }
+    .hide_md {
+        display: none;
+    }
 }
 
 /* HERO */
 .hero {
-    color: white;
     background-color: var(--background_green);
 }
 
@@ -44,13 +55,11 @@ header {
 
 /* ABOUT */
 .about {
-    color: white;
     background-color: var(--background_green);
 }
 
 /* LOCATION */
 .location {
-    color: white;
     background-color: var(--background_header);
 }
 
@@ -68,6 +77,5 @@ header {
 
 /* FOOTER */
 footer {
-    color: white;
     background-color: var(--background_footer);
 }

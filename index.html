@@ -14,22 +14,29 @@
 
   <body>
     <!-- HEADER -->
-    <header>
+    <header class="py-3">
       <div class="container">
-        <div class="row g-0">
-          <div class="col-6 text-start">gigi</div>
-          <div class="col-6 text-end">gigi</div>
+        <div class="row g-0 align-items-center">
+          <div class="col-6 text-start text-uppercase fw-bold">start bootstrap</div>
+          <div class="col-6 text-end">
+            <button type="button" class="hide_md btn btn-outline-light">
+              <i class="fa-solid fa-bars" style="color: #787878;"></i>              
+            </button>
+            <span class="hide_sm text-uppercase fw-bold">portfolio</span>
+            <span class="hide_sm text-uppercase ms-4 fw-bold">about</span>
+            <span class="hide_sm text-uppercase ms-4 fw-bold">contact</span>
+          </div>
         </div>
       </div>
     </header>
 
     <!-- HERO -->
-    <section class="hero">
+    <section class="hero py-5">
       <div class="container">
         <div class="row text-center justify-content-center">
           <img class="avatar" src="img/avatar.svg" alt="avatar">
           <div class="col-12">
-            <h1 class="text-uppercase">start bootstrap</h1>
+            <h1 class="text-uppercase fw-semibold">start bootstrap</h1>
           </div>
           <div class="col-12">
             <span class="text-uppercase">graphic artist - </span>
@@ -41,10 +48,10 @@
     </section>
 
     <!-- PORTFOLIO -->
-    <section class="portfolio">
+    <section class="portfolio py-5">
       <div class="container">
         <div class="row g-2 text-center">
-          <h2 class="text-uppercase">portfolio</h2>
+          <h2 class="text-uppercase fw-semibold">portfolio</h2>
           <img class="col-12 col-md-6 col-lg-4" src="img/cabin.png" alt="photo">
           <img class="col-12 col-md-6 col-lg-4" src="img/cake.png" alt="photo">
           <img class="col-12 col-md-6 col-lg-4" src="img/circus.png" alt="photo">
@@ -56,11 +63,11 @@
     </section>
 
     <!-- ABOUT -->
-    <section class="about">
+    <section class="about py-4">
       <div class="wrapper">
         <div class="container">
           <div class="row g-2 justify-content-center">
-            <div class="text-center col-12"><h2 class="text-uppercase">about</h2></div>
+            <div class="text-center col-12"><h2 class="text-uppercase fw-semibold">about</h2></div>
             <div class="col-12 col-sm-6">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt magnam, animi quia ab repudiandae molestiae incidunt at aliquam iste consectetur id, vel quisquam aut esse tenetur. Fugit ipsa quae quidem.</p>
             </div>
@@ -77,9 +84,9 @@
     </section>
 
     <!-- CONTACT -->
-    <section class="contact">
+    <section class="contact py-4">
       <div class="wrapper text-center">
-        <h2 class="text-uppercase">contact me</h2>
+        <h2 class="text-uppercase fw-semibold">contact me</h2>
         <div class="form">
           dfgdfgd
         </div>
@@ -87,22 +94,24 @@
     </section>
 
     <!-- LOCATION -->
-    <section class="location">
+    <section class="location py-4">
       <div class="container">
         <div class="row gy-4">
           <div class="col-12 col-md-4 text-center">
-            <p class="mb-3 text-uppercase">location</p>
+            <p class="mb-3 text-uppercase fw-semibold">location</p>
             <P>2215 John Daniel Drive Clark, MO 54243</P>
           </div>
+
           <div class="col-12 col-md-4 text-center">
-            <p class="mb-3 text-uppercase">around the web</p>
+            <p class="mb-3 text-uppercase fw-semibold">around the web</p>
             <span class="border border-light"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></span>
             <span class="border border-light"><i class="fa-brands fa-google-plus-g" style="color: #ffffff;"></i></span>
             <span class="border border-light"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></span>
             <span class="border border-light"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></span>          
           </div>
+          
           <div class="col-12 col-md-4 text-center">
-            <p class="mb-3 text-uppercase">about freelancer</p>
+            <p class="mb-3 text-uppercase fw-semibold">about freelancer</p>
             <p>Freelance is a free to use, open source Bootstrap theme created by <a class="text-decoration-none" href="">Start Bootstrap</a>.</p>
           </div>
         </div>
@@ -110,7 +119,7 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="text-center">
+    <footer class="text-center py-4">
       <span>Copyright &copy; Your Website 2019</span>
     </footer>
   </body>
