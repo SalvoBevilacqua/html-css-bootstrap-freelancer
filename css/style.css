@@ -65,6 +65,22 @@ header {
     background-color: var(--background_green);
 }
 
+/* CONTACT */
+.ms_form input, .ms_form textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.form-floating > .ms_form_control {
+    padding-bottom: 8rem;
+}
+
+.form-floating > label {
+    padding: 1rem .1rem;
+}
+
 /* LOCATION */
 .location {
     background-color: var(--background_header);
