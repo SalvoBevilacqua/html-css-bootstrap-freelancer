@@ -8,7 +8,6 @@ img {
     --background_footer: rgb(44, 62, 80);
     --background_green: rgb(26, 188, 156);
     --background_header: rgb(58, 84, 109);
-    --padding: 2rem;
 }
 
 /* COMMON */
@@ -26,12 +25,10 @@ header, .hero, .about, .location, footer {
     border: 2px solid;
 }
 
-/* HEADER */
 header, .location {
     background-color: var(--background_header);
 }
 
-/* HERO */
 .hero, .ms_button, .about {
     background-color: var(--background_green);
 }
@@ -49,6 +46,7 @@ header, .location {
     padding: 1rem .1rem;
 }
 
+/* LOCATION */
 .location a {
     color: var(--background_green);
 }
