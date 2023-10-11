@@ -27,22 +27,17 @@ header, .hero, .about, .location, footer {
 }
 
 /* HEADER */
-header {
+header, .location {
     background-color: var(--background_header);
 }
 
 /* HERO */
-.hero {
+.hero, .ms_button, .about {
     background-color: var(--background_green);
 }
 
 .avatar {
     max-width: 150px;
-}
-
-/* ABOUT */
-.about {
-    background-color: var(--background_green);
 }
 
 /* CONTACT */
@@ -52,15 +47,6 @@ header {
 
 .form-floating > label {
     padding: 1rem .1rem;
-}
-
-.ms_button {
-    background-color: var(--background_green);
-}
-
-/* LOCATION */
-.location {
-    background-color: var(--background_header);
 }
 
 .location a {
